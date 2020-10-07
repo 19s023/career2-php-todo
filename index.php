@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://npmcdn.com/flatpickr/dist/themes/material_blue.css">
+    <link rel="stylesheet" href="index.css">
     <title>TODO App</title>
 </head>
 <body style="background-color: black;color: white;">
@@ -42,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <h2 class="text-muted py-3">やること一覧</h2>
 <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
     <input type="hidden" name="method" value="DELETE">
-    <button class="btn btn-danger" type="submit">TODOを全削除する</button>
+    <button class="btn btn-danger" type="submit">とどを全削除する</button>
 </form>
 <?php
 $todo_list = $todo->getList();

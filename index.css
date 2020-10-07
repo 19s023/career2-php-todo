@@ -11,11 +11,16 @@ h1{
 
 h2{
     color: skyblue;
-    background-color: magenta;
+    background-color: yellow;
 }
 
 label{
     color: rgb(88, 88, 88);
+}
+
+.table{
+    color: pink;
+    background-color: royalblue;
 }
 
 .create{
